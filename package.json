@@ -1,0 +1,16 @@
+{
+  "name": "curso-node",
+  "version": "1.0.0",
+  "description": "Curso node Hcode",
+  "main": "server.js",
+  "dependencies": {
+    "faker": "^5.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "author": "Vitor Gouveia <vitorbgouveia@gmail.com>",
+  "license": "MIT"
+}
