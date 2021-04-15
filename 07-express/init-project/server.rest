@@ -1,0 +1,23 @@
+### get admin
+GET http://localhost:3000/adm
+
+### get admin with id
+GET http://localhost:3000/adm/1
+
+###
+POST http://localhost:3000/adm
+Content-Type: application/json
+
+{
+  "login": "ok",
+  "senha": "12345"
+}
+
+###
+PATCH http://localhost:3000/adm/1
+
+###
+PUT http://localhost:3000/adm/1
+
+###
+DELETE  http://localhost:3000/adm/1

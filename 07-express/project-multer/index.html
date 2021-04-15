@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test multer</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+</head>
+<body>
+  <div class="container">
+    <hi>Create upload with multer</hi>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+      <div class="form-group">
+        <label for="file">Select file</label>
+        <input type="file" name="file" id="file" class="form-control-file"/>
+      </div>
+      <button class="btn btn-primary btn-larger">Upload file</button>
+    </form>
+  </div>
+</body>
+</html>
