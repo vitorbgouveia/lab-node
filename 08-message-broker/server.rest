@@ -1,0 +1,26 @@
+### health check
+GET http://localhost:3000/
+
+### send message with rabbitmq
+POST http://localhost:3000/rabbitmq
+Content-Type: application/json
+
+{
+  "exchange": "poc",
+  "message": {
+    "content": "ok",
+    "content2": "ok3"
+  }
+}
+
+### send message with kafka
+POST http://localhost:3000/kafka
+Content-Type: application/json
+
+{
+  "topicName": "poc",
+  "message": {
+    "content": "ok1111",
+    "content2": "ok799654"
+  }
+}
